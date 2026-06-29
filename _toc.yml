@@ -1,0 +1,32 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+# Empty skeleton: only `intro` ships so the book builds. Add parts/chapters as
+# you write them. Below is the 2025 layout kept as a template — uncomment a part
+# once at least one of its files exists (a part with no chapters won't build).
+#
+# parts:
+#   - caption: Introduction
+#     chapters:
+#     - file: lectures_ML/Introduction/What-is-ML
+#   - caption: Data Preprocessing and Feature Engineering
+#     chapters:
+#     - file: lectures_ML/DataPreprocessing/datapreprocessing
+#     - file: assignments/Assignment1
+#   - caption: Introduction to Supervised Machine Learning
+#     chapters:
+#     - file: lectures_ML/SupervisedML/supervisedml
+#     - file: assignments/Assignment2
+#   - caption: Unsupervised Machine Learning
+#     chapters:
+#     - file: lectures_ML/UnsupervisedML/unsupervisedML
+#     - file: assignments/Assignment3
+#   - caption: Introduction to Deep Learning
+#     chapters:
+#     - file: lectures_ML/DeepLearning/ANN
+#     - file: assignments/Assignment4
+#   - caption: Advanced Topics
+#     chapters:
+#     - file: lectures_ML/AdvancedTopics/physicsai
