@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 _build/
 .idea/
+# Syllabus kept local, not published to the site
+Syllabus*.pdf

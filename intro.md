@@ -4,9 +4,6 @@ This is the online home for the <strong>second</strong> of the two summer 2026 c
 - *Computing and Research Methods for Climate Data Science* ([CLMT5405](https://earth-ds-ml.github.io/summer_2026/intro.html#))
 - <strong>*Machine Learning for Climate Science and Environmental Sustainability* (CLMT5403)</strong>
 
-%## History and Origins of the course
-
-
 ## Course Description
 The application of Machine Learning (ML) to climate science and environmental sustainability has become 
 increasingly popular in recent years, promising to revolutionize how we analyze and address critical 
@@ -34,16 +31,56 @@ By the end of this course, students will:
 - Explore future trends and emerging technologies
 
 ## Course structure
-Most of our classes will consist of lectures and hands-on coding tutorials. You are expected to bring a laptop to class and follow along with the
-lectures, and be prepared to work together in groups on small coding assignments during class.
 
-## Policy on Use of ChatGPT and AI Tools
-In this course, we recognize that tools like ChatGPT and other AI assistants can support learning, 
-especially in exploring new concepts, debugging code, and clarifying questions. However, it is essential 
-that you develop your own skills and understanding.
+We meet **Tuesdays and Thursdays, 9:00–10:45 am** (602 Northwest Corner). Most classes are split in two: the **first half** is a lecture covering new material, and the **second half** is **hands-on coding** where you work through tutorials guided by the instructor. Bring a laptop to every class — you'll spend a large fraction of class time writing and running code, not just listening. We use the [LEAP Pangeo platform](https://leap.columbia.edu/leap-pangeo-3/) to access datasets and to train and evaluate models in Jupyter notebooks.
 
-Permitted Use:
-- You may use AI tools like ChatGPT for certain assignments where explicitly allowed—such as coding practice, project brainstorming, or exploratory data analysis.
-- When you do use AI tools, you must document how and where you used them (e.g., in a code comment or footnote). A simple statement like “Used ChatGPT to help debug the plotting code in section 2” is sufficient.
+Attendance and active participation are expected and count toward your grade. Unexcused absences count against the attendance score; excused absences (medical issue, family emergency, or significant career-related activity) are at the instructor's discretion.
 
-Ultimately, you are responsible for understanding and being able to explain all work you submit. If you cannot explain how a piece of code or analysis works, that is a signal to revisit the material, not rely more heavily on AI.
+## Assignments and grading
+
+Your grade in this course is based on:
+
+- **50%** — coding assignments
+- **20%** — final paper and presentation
+- **15%** — attendance and participation
+- **15%** — quizzes
+
+**Coding assignments.** There are **four** coding assignments, one assigned at the beginning of each of weeks 1–4, following the material covered in class. Each is due by **Thursday at midnight of the following week** (e.g. the assignment given at the start of week 2 is due Thursday of week 3). 
+
+**Quizzes.** Short quizzes on the lecture material are posted in **Courseworks** and are due before the next class.
+
+**Late policy.** Coding assignments turned in **up to one week late** receive a **10%** deduction; assignments **more than one week late** receive a **50%** deduction.
+
+## Final project
+
+A final project serves as the capstone and counts for **20%** of your grade, in lieu of a final exam. It is a **5-page paper** on either the ethical and policy implications of AI use in environmental and climate research, or how ML methods might be applied to a specific climate adaptation or mitigation strategy. 
+
+The timeline:
+
+- **Topic** — submit to the instructor for approval by **Friday, July 24th at midnight**.
+- **Presentation** — in-class final presentations on **August 13th**.
+- **Paper** — due **August 14th at midnight**.
+
+## Using AI in This Course
+
+AI tools like ChatGPT are now part of how people work with data. This course treats them as a tool you'll learn to use well — including where they help, where they don't, and what your own judgment still has to provide.
+
+**What to use.** For this course, the recommended chat-based AI tool is [Google Gemini](https://www.cuit.columbia.edu/content/google-gemini), which Columbia provides free to students through CUIT. Other chat tools (ChatGPT, Claude.ai) are also fine if you prefer them. Avoid editor-integrated tools like Copilot, Cursor, or Claude Code — chat keeps the "ask → read → verify" loop visible, which matters while you're still learning the underlying skills.
+
+**How to use it — Socratic mode.** Default to asking the AI to *teach* you, not to *do it for you*. At the start of a working session, prime your chat with a tutor prompt. Here is one to start with — feel free to adapt it as you learn what works:
+
+```
+You are acting as my Socratic Tutor for a graduate-level Machine Learning and Climate Science
+course. I am going to show you bugs or ask about Python/Xarray/Git.
+
+Rules:
+1. NEVER give me corrected code blocks or direct syntax fixes.
+2. Explain the computational or data concept I am missing.
+3. Ask me ONE targeted guiding question to help me find the solution myself.
+```
+
+The goal is to use AI to build understanding, not to paste solutions you can't explain.
+
+**What AI is good at, and what it isn't.** Chat-based AI is genuinely useful for explaining error messages, suggesting matplotlib syntax, walking through an unfamiliar library API, or summarizing what a function does. It is less reliable for judging whether your scientific result is correct, picking the right analysis for *your* data, catching subtle bugs in numerical or coordinate-system code, or knowing what "looks right" for a specific geophysical field. Treat AI as a fast, broadly-read but inexperienced collaborator — useful for the syntax layer, not a substitute for your own scientific judgment.
+
+**Your responsibilities.** You're responsible for understanding and being able to explain everything you submit. If you can't explain how a piece of code or analysis works, that's a signal to revisit the material — not to lean more heavily on AI.

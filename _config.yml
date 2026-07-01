@@ -3,6 +3,7 @@
 
 title: Machine Learning for Climate Science and Environmental Sustainability
 author: Kara Lamb
+copyright: "2026"
 logo: logo_class.png
 
 # Force re-execution of notebooks on each build.

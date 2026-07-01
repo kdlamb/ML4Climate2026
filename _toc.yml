@@ -3,18 +3,20 @@
 
 format: jb-book
 root: intro
-# Empty skeleton: only `intro` ships so the book builds. Add parts/chapters as
-# you write them. Below is the 2025 layout kept as a template — uncomment a part
-# once at least one of its files exists (a part with no chapters won't build).
-#
-# parts:
-#   - caption: Introduction
-#     chapters:
-#     - file: lectures_ML/Introduction/What-is-ML
-#   - caption: Data Preprocessing and Feature Engineering
-#     chapters:
-#     - file: lectures_ML/DataPreprocessing/datapreprocessing
-#     - file: assignments/Assignment1
+# Uncomment a part once at least one of its files exists (a part with no
+# chapters won't build). Assignment files are added back once ported into
+# 2026 assignments/.
+parts:
+  - caption: Introduction
+    chapters:
+    - file: lectures_ML/Introduction/What-is-ML
+    - file: lectures_ML/Introduction/ML-for-climate-env
+    - file: lectures_ML/Introduction/computing-environment
+  - caption: Data Preprocessing and Feature Engineering
+    chapters:
+    - file: lectures_ML/DataPreprocessing/datapreprocessing
+    - file: lectures_ML/DataPreprocessing/datapreparation
+    - file: assignments/Assignment1
 #   - caption: Introduction to Supervised Machine Learning
 #     chapters:
 #     - file: lectures_ML/SupervisedML/supervisedml
