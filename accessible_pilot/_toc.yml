@@ -1,0 +1,16 @@
+# Table of contents — accessible pilot.
+# Mirrors the main book's _toc.yml so page names match. Grows as more units
+# are ported into ML4Climate2026/.
+format: jb-book
+root: intro
+parts:
+  - caption: Introduction
+    chapters:
+      - file: lectures_ML/Introduction/What-is-ML
+      - file: lectures_ML/Introduction/ML-for-climate-env
+      - file: lectures_ML/Introduction/computing-environment
+  - caption: Data Preprocessing and Feature Engineering
+    chapters:
+      - file: lectures_ML/DataPreprocessing/datapreprocessing
+      - file: lectures_ML/DataPreprocessing/datapreparation
+      - file: assignments/Assignment1

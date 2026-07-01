@@ -26,6 +26,9 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: jupyter-book build .
+      # Build the screen-reader-friendly pilot and nest it at /accessible/.
+      - run: jupyter-book build accessible_pilot
+      - run: cp -r accessible_pilot/_build/html/. _build/html/accessible/
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _build/html
