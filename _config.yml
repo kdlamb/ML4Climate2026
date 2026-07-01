@@ -12,9 +12,12 @@ execute:
   execute_notebooks: force
   allow_errors: true      # keep outputs even if a cell raises
   timeout: 300  # time in seconds (default is 30)
-  # Kaggle download needs credentials CI lacks; ship this notebook's saved outputs.
+  # Ship saved outputs instead of re-running these in CI:
+  #  - datapreparation: kagglehub download needs credentials CI lacks
+  #  - assignments/*: student templates with empty answer cells (would NameError)
   exclude_patterns:
     - "**/datapreparation.ipynb"
+    - "assignments/*.ipynb"
 
 # Define the name of the latex output file for PDF builds
 latex:
