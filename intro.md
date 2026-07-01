@@ -4,6 +4,14 @@ This is the online home for the <strong>second</strong> of the two summer 2026 c
 - *Computing and Research Methods for Climate Data Science* ([CLMT5405](https://earth-ds-ml.github.io/summer_2026/intro.html#))
 - <strong>*Machine Learning for Climate Science and Environmental Sustainability* (CLMT5403)</strong>
 
+```{admonition} Using a screen reader?
+:class: tip
+A screen-reader-friendly version of this site is available at
+[kdlamb.github.io/ML4Climate2026/accessible](https://kdlamb.github.io/ML4Climate2026/accessible/).
+It covers the same material with figures described in text, formulas as readable
+math, and notebooks rewritten as scripts.
+```
+
 ## Course Description
 The application of Machine Learning (ML) to climate science and environmental sustainability has become 
 increasingly popular in recent years, promising to revolutionize how we analyze and address critical 

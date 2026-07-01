@@ -6,6 +6,11 @@ author: Kara Lamb
 copyright: "2026"
 logo: logo_class.png
 
+# The accessible pilot is its own standalone book (built separately and nested
+# at /accessible/); keep the main book from globbing its pages.
+exclude_patterns:
+  - accessible_pilot
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
