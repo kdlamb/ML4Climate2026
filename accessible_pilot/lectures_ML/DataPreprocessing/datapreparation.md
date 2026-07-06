@@ -227,7 +227,7 @@ the largest fires occur for the most part in the Western US.
 import numpy as np
 
 df.plot(kind='scatter', x='longitude', y='latitude', grid=True, alpha=0.2,
-        s=np.log(df["fire_size"]), label="Fire Size",
+        s=np.log(df["fire_size"]).clip(lower=0), label="Fire Size",
         c=np.log(df["fire_size"]), cmap="jet", colorbar=True, legend=True,
         sharex=False, figsize=(10, 7))
 plt.show()
@@ -413,7 +413,7 @@ Rather than filling with a specific value, it's also possible to fill with the
 df_fill_mean = df.copy()
 
 meantime = df['putout_time_float'].mean()
-df_fill_mean['putout_time_float'].fillna(meantime, inplace=True)
+df_fill_mean['putout_time_float'] = df_fill_mean['putout_time_float'].fillna(meantime)
 df_fill_mean
 ```
 
@@ -422,7 +422,7 @@ to filling in using the values based on estimating from surrounding non-NaN data
 in a column.
 
 ```python
-df_interp = df.interpolate().copy()
+df_interp = df.infer_objects(copy=False).interpolate().copy()
 ```
 
 Interpolation doesn't make a lot of sense for this data set since the fires are
