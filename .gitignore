@@ -4,3 +4,8 @@ _build/
 .idea/
 # Syllabus kept local, not published to the site
 Syllabus*.pdf
+# Wildfire dataset (139 MB, from Zenodo 10.5281/zenodo.11510677) — too big for
+# GitHub's 100 MB limit. Kept local; randomforests.ipynb ships saved outputs.
+lectures_ML/SupervisedML/FPA_FOD_west_cleaned.csv
+lectures_ML/SupervisedML/rnd_multiclass_clf.pkl
+lectures_ML/SupervisedML/decision_tree.dot

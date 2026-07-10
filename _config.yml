@@ -19,9 +19,11 @@ execute:
   timeout: 300  # time in seconds (default is 30)
   # Ship saved outputs instead of re-running these in CI:
   #  - datapreparation: kagglehub download needs credentials CI lacks
+  #  - randomforests: needs the 139 MB Zenodo CSV, which is too big to commit
   #  - assignments/*: student templates with empty answer cells (would NameError)
   exclude_patterns:
     - "**/datapreparation.ipynb"
+    - "**/randomforests.ipynb"
     - "assignments/*.ipynb"
 
 # Define the name of the latex output file for PDF builds

@@ -14,3 +14,8 @@ parts:
       - file: lectures_ML/DataPreprocessing/datapreprocessing
       - file: lectures_ML/DataPreprocessing/datapreparation
       - file: assignments/Assignment1
+  - caption: Introduction to Supervised Machine Learning
+    chapters:
+      - file: lectures_ML/SupervisedML/supervisedml
+      - file: lectures_ML/SupervisedML/randomforests
+      - file: assignments/Assignment2
