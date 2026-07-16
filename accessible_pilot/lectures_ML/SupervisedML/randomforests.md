@@ -1,4 +1,4 @@
-# Decision Trees and Random Forests (Wildfire cause prediction)
+# Tutorial on Random Forests (Wildfire cause prediction)
 
 :::{admonition} How to work through this tutorial (accessible version)
 :class: important

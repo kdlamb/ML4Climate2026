@@ -9,3 +9,7 @@ Syllabus*.pdf
 lectures_ML/SupervisedML/FPA_FOD_west_cleaned.csv
 lectures_ML/SupervisedML/rnd_multiclass_clf.pkl
 lectures_ML/SupervisedML/decision_tree.dot
+# Lecture slides, recordings, and Zoom transcripts kept local, not published to the site
+*.pptx
+*.mp4
+*Transcript.md

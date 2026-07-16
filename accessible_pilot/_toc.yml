@@ -17,5 +17,14 @@ parts:
   - caption: Introduction to Supervised Machine Learning
     chapters:
       - file: lectures_ML/SupervisedML/supervisedml
+      - file: lectures_ML/SupervisedML/classification
+      - file: lectures_ML/SupervisedML/regression
+      - file: lectures_ML/SupervisedML/treesforests
       - file: lectures_ML/SupervisedML/randomforests
       - file: assignments/Assignment2
+  - caption: Unsupervised Machine Learning
+    chapters:
+      - file: lectures_ML/UnsupervisedML/unsupervisedML
+      - file: lectures_ML/UnsupervisedML/dimensionalityreduction
+      - file: lectures_ML/UnsupervisedML/clustering
+      - file: lectures_ML/UnsupervisedML/PCA

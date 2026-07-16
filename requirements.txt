@@ -1,3 +1,10 @@
 jupyter-book<2  # v1 (Sphinx) — uses _config.yml/_toc.yml and emits _build/html; v2 is the MyST rewrite
 matplotlib
 numpy
+# Needed by the lecture-note pages that re-execute during the build
+# (classification, regression, treesforests, dimensionalityreduction, clustering).
+# They build every figure from scikit-learn's bundled toy datasets, so no network
+# access is required. Notebooks needing heavier deps (xarray, kagglehub) are
+# excluded from execution in _config.yml and ship their saved outputs instead.
+scikit-learn
+pandas

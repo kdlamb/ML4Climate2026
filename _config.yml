@@ -10,6 +10,8 @@ logo: logo_class.png
 # at /accessible/); keep the main book from globbing its pages.
 exclude_patterns:
   - accessible_pilot
+  # Zoom class transcripts are kept local (gitignored); don't build them as pages.
+  - "**/*Transcript.md"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -20,10 +22,13 @@ execute:
   # Ship saved outputs instead of re-running these in CI:
   #  - datapreparation: kagglehub download needs credentials CI lacks
   #  - randomforests: needs the 139 MB Zenodo CSV, which is too big to commit
+  #  - PCA: fetches MNIST from OpenML and streams NOAA SST over OPeNDAP (needs
+  #    xarray + a live NOAA THREDDS connection); ships its saved outputs instead
   #  - assignments/*: student templates with empty answer cells (would NameError)
   exclude_patterns:
     - "**/datapreparation.ipynb"
     - "**/randomforests.ipynb"
+    - "**/PCA.ipynb"
     - "assignments/*.ipynb"
 
 # Define the name of the latex output file for PDF builds
