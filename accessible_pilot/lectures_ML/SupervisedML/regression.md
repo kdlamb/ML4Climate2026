@@ -208,8 +208,14 @@ This prints:
 
 ```
 train  R^2 =   0.98   RMSE =  0.38
-test   R^2 = -2055712.30   RMSE = 2244.23
+test   R^2 = -2055712.29   RMSE = 2244.23
 ```
+
+(Don't be surprised if your last digit or two differ — you might see
+`-2055712.30`. A degree-15 fit is severely **ill-conditioned**: the design matrix here has a
+condition number of about 6 x 10^8, which consumes roughly half of float64's ~16 significant
+digits, so the trailing digits of a number this size are numerical noise rather than a result.
+That fragility is itself part of what is wrong with this model.)
 
 This is the punchline of the whole section, and it is worth sitting with.
 
