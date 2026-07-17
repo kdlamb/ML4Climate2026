@@ -31,7 +31,7 @@ parts:
     - file: lectures_ML/UnsupervisedML/dimensionalityreduction
     - file: lectures_ML/UnsupervisedML/clustering
     - file: lectures_ML/UnsupervisedML/PCA
-#     - file: assignments/Assignment3
+    - file: assignments/Assignment3
 #   - caption: Introduction to Deep Learning
 #     chapters:
 #     - file: lectures_ML/DeepLearning/ANN

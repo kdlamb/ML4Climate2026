@@ -28,3 +28,4 @@ parts:
       - file: lectures_ML/UnsupervisedML/dimensionalityreduction
       - file: lectures_ML/UnsupervisedML/clustering
       - file: lectures_ML/UnsupervisedML/PCA
+      - file: assignments/Assignment3
