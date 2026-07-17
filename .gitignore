@@ -13,3 +13,8 @@ lectures_ML/SupervisedML/decision_tree.dot
 *.pptx
 *.mp4
 *Transcript.md
+# Figures/assets extracted from slide decks for reference while writing note pages —
+# not published to the site (note pages regenerate figures from data instead)
+images_ann/
+**/_contact_sheet.html
+lectures_ML/DeepLearning/figures/ANNLecture/

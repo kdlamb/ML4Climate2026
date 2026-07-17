@@ -29,3 +29,7 @@ parts:
       - file: lectures_ML/UnsupervisedML/clustering
       - file: lectures_ML/UnsupervisedML/PCA
       - file: assignments/Assignment3
+  - caption: Introduction to Deep Learning
+    chapters:
+      - file: lectures_ML/DeepLearning/ann
+#      - file: lectures_ML/DeepLearning/ann_tutorial

@@ -29,6 +29,7 @@ execute:
     - "**/datapreparation.ipynb"
     - "**/randomforests.ipynb"
     - "**/PCA.ipynb"
+    - "**/ann_tutorial.ipynb"   # needs tensorflow + downloads Fashion-MNIST; ships 2025 outputs
     - "assignments/*.ipynb"
 
 # Define the name of the latex output file for PDF builds
