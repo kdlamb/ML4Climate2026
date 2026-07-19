@@ -32,4 +32,4 @@ parts:
   - caption: Introduction to Deep Learning
     chapters:
       - file: lectures_ML/DeepLearning/ann
-#      - file: lectures_ML/DeepLearning/ann_tutorial
+      - file: lectures_ML/DeepLearning/ann_tutorial
