@@ -36,6 +36,8 @@ parts:
     chapters:
     - file: lectures_ML/DeepLearning/ann
     - file: lectures_ML/DeepLearning/ann_tutorial
+    - file: lectures_ML/DeepLearning/cnn
+    - file: lectures_ML/DeepLearning/cnn_tutorial
 #     - file: assignments/Assignment4
 #   - caption: Advanced Topics
 #     chapters:

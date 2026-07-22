@@ -30,6 +30,7 @@ execute:
     - "**/randomforests.ipynb"
     - "**/PCA.ipynb"
     - "**/ann_tutorial.ipynb"   # needs tensorflow + downloads the PPE data from Zenodo; ships saved outputs
+    - "**/cnn_tutorial.ipynb"   # needs tensorflow + reads ClimateBench data from a gs:// bucket; ships saved outputs
     - "assignments/*.ipynb"
 
 # Define the name of the latex output file for PDF builds
