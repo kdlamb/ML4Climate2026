@@ -35,3 +35,6 @@ parts:
       - file: lectures_ML/DeepLearning/ann_tutorial
       - file: lectures_ML/DeepLearning/cnn
       - file: lectures_ML/DeepLearning/cnn_tutorial
+      - file: lectures_ML/DeepLearning/rnn
+      - file: lectures_ML/DeepLearning/rnn_tutorial
+      - file: assignments/Assignment4
