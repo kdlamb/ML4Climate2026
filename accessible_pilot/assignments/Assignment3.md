@@ -21,14 +21,14 @@ plot through [MAIDR](https://earth-ds-ml.github.io/summer_2026/accessible/lectur
 if you find it useful, but the printed numbers are what you discuss in your answer.
 :::
 
-In this assignment, we will explore some common clustering methods, including
+In this homework assignment, you will explore some common clustering methods, including
 K-Means clustering and Gaussian Mixture Models.
 
-We'll apply these clustering algorithms to the problem of classifying climate
+You'll apply these clustering algorithms to the problem of classifying climate
 zones over the continental United States. The Köppen-Geiger Climate Zones are a
 climate classification system based on precipitation and temperature
 ([NOAA description](https://www.noaa.gov/jetstream/global/climate-zones/jetstream-max-addition-k-ppen-geiger-climate-subdivisions)).
-We'll use unsupervised machine learning to discover similar climate zones using
+You'll use unsupervised machine learning to discover similar climate zones using
 the climatological averages for temperature and precipitation.
 
 ```python
@@ -42,7 +42,7 @@ from sklearn.mixture import GaussianMixture
 
 ## Download the data sets
 
-We'll use climatological data over the continental US, specifically average
+You'll use climatological data over the continental US, specifically average
 monthly precipitation and temperature records for the years 1901 to 2000 from
 NOAA ([source](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals)).
 Download the two NetCDF files by running these `wget` commands **in a terminal**
@@ -70,7 +70,7 @@ from the variable's metadata in step 1.)*
 continental US. *(Same as above — print shape, min, max, and mean of the August
 temperature field alongside any plot.)*
 
-To identify climatological zones across the continental US, we will use the 12
+To identify climatological zones across the continental US, you will use the 12
 monthly average temperature values and the 12 monthly average precipitation values
 as input features for clustering algorithms. Each latitude and longitude point will
 be treated as a single sample with 24 features (12 for temperature and 12 for
@@ -89,7 +89,7 @@ at each point on the map:
 lat_grid, lon_grid = np.meshgrid(lats, lons, indexing="ij")
 ```
 
-We'll use these arrays later to create labels for the latitude and longitude points
+You'll use these arrays later to create labels for the latitude and longitude points
 associated with each sample. *(Print `lat_grid.shape` to confirm it matches one
 month of the temperature map.)*
 
@@ -114,7 +114,7 @@ $n_{sample} \times 12$. *(Print the shapes to confirm.)*
 
 ## Part 2: Pre-process the data
 
-**9)** Scale the precipitation and temperature arrays between -1 and 1. We do this
+**9)** Scale the precipitation and temperature arrays between -1 and 1. You do this
 so that all 12 months are scaled relative to the same minimum and maximum values
 for precipitation or temperature, respectively. You can use the `MinMaxScaler` from
 scikit-learn with `feature_range=(-1, 1)` (you will have to reshape the arrays to a
